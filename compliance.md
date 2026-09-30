@@ -72,6 +72,13 @@ The voice path is VoIP.ms, a Canadian phone company, on six-second billing. Teln
 
 Confirm the Elections BC rule in force for this campaign before relying on the 2024 note.
 
+
+## If a provider refuses the campaign
+
+The companies named on this roadmap are the ones that fit the published rules as of 29 September 2026. None of them has been asked, in this study, to accept a political canvassing campaign for OneBC.
+
+If VoIP.ms, the Canadian machine, or the front door refuses the use because of compliance, dialing stops. A new study then names only the providers that will actually carry this campaign. A refused provider is not replaced quietly. Telnyx is already out, because it bills a full minute, not because it refused the campaign.
+
 ## What is deliberately not claimed
 
 - No regulator has approved this desk.

@@ -108,6 +108,13 @@ The list stays in Canada. A machine in Hillsboro, Oregon is not used for this ri
 
 **Cloudflare** is only the front door. The name lookup and the door in front of the page are on the free plan. That part is $0. The list is not cached there. A domain name, if it is bought there, is a separate yearly fee.
 
+
+## If a provider refuses the campaign
+
+The companies named on this roadmap are the ones that fit the published rules as of 29 September 2026. None of them has been asked, in this study, to accept a political canvassing campaign for OneBC.
+
+If VoIP.ms, the Canadian machine, or the front door refuses the use because of compliance, dialing stops. A new study then names only the providers that will actually carry this campaign. A refused provider is not replaced quietly. Telnyx is already out, because it bills a full minute, not because it refused the campaign.
+
 ## After this riding
 
 - A Connect button for NationBuilder, then HubSpot, Maximizer, Salesforce, CiviCRM, or a Google Sheet. The first riding only needs the file.

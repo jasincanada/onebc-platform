@@ -51,7 +51,7 @@ This is canvassing of voters and candidates. The recording may say who is callin
 
 A person who asks to stop is removed immediately and kept off the list for at least three years. The list itself stays in Canada. The desk will not dial if the opening, the hours, the permission, or a required election confirmation is missing.
 
-Every duty found in the CRTC rules, the privacy duties, and the election filings is on [The rules](compliance.md), with what the desk does about each one. Meeting those duties is the claim. A regulator has not certified the desk. The software is still a draft. Outbound stays off.
+If a named provider refuses this campaign on compliance grounds, dialing stops until a new study names who will actually carry it. Every duty found in the CRTC rules, the privacy duties, and the election filings is on [The rules](compliance.md), with what the desk does about each one. Meeting those duties is the claim. A regulator has not certified the desk. The software is still a draft. Outbound stays off.
 
 Through 24 October 2026. One riding. $800 is my time and the machines I build on. About $700 is an estimate for accounts billed to you, not to me. Phone minutes are yours, counted in steps of six seconds. That is the closest we can get for now. A company that rounds every call up to a full minute will not be used. VoIP.ms is the six-second account the riding can use. Telnyx bills full minutes and stays on the doctor search only. They sit outside both figures. Nothing on this page places a call.
 
