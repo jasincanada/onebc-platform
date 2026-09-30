@@ -62,6 +62,39 @@ A person who asks to stop is removed immediately and kept off the list for at le
 
 If a named provider refuses this campaign on compliance grounds, dialing stops until a new study names who will actually carry it. Every duty found in the <abbr title="CRTC. The Canadian Radio-television and Telecommunications Commission. It sets the rules for phone calls in Canada.">CRTC</abbr> rules, the privacy duties, and the election filings is on [The rules](compliance.md), with what the desk does about each one. Meeting those duties is the claim. A regulator has not certified the desk. The software is still a draft. Outbound stays off.
 
-Through 24 October 2026. One riding. $4,000 in US dollars is my time and the machines I build on. That is 70 hours at $50 US an hour, which is $3,500, and $500 for using those machines on this job for the month it is built. The machines stay mine. About $700 in US dollars is an estimate for accounts billed to you, not to me. None of these figures is in Canadian dollars. Neither figure includes <abbr title="GST. The federal goods and services tax. It is not included in the fee, and it is not added to it.">GST</abbr> or <abbr title="PST. The British Columbia sales tax, 7% when a sale is taxable. It is not included in the fee.">PST</abbr>. <abbr title="GST. The federal goods and services tax. It is not included in the fee, and it is not added to it.">GST</abbr> is not added to my fee. <abbr title="PST. The British Columbia sales tax, 7% when a sale is taxable. It is not included in the fee.">PST</abbr> is 7% when a sale is taxable, and I am registered to collect it. The Province's software page says custom software built solely for one buyer may be bought by that buyer without PST. This desk is being built for OneBC alone, so PST is not added to the $4,000, and the invoice will say so. If a later charge is a right to use software I keep, rather than software built solely for you, PST is 7% on top and is shown on its own line. It is never inside the $4,000. The $700 estimate also does not include any tax those other companies add on their own bills. I stop if the estimate reaches $700 in US dollars, before those taxes. This is the provincial rule as published, not a ruling on the invoice. Their page: [software](https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/software). Phone minutes are yours, counted in steps of six seconds. That is the closest we can get for now. A company that rounds every call up to a full minute will not be used. <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr> is the six-second account the riding can use. Telnyx bills full minutes and will not be used. Neither company is inside either figure. Nothing on this page places a call.
+Through 24 October 2026. One riding. It is not switched on. Nothing on this page places a call.
+
+## The price
+
+$4,000 in US dollars is my time and the machines I build on. That figure is before tax. The machines stay mine. Your accounts and the phone minutes are not in it.
+
+| What | How it is figured | US dollars |
+|---|---|---:|
+| My time | 70 hours at $50 an hour | $3,500 |
+| The machines | One month of use on this job. They are not sold. | $500 |
+| Total | | $4,000 |
+
+The 70 hours are the desk for this riding, and nothing beyond it. The work has not been started, so these are the hours the price is built on, not hours already spent.
+
+| Work | Hours |
+|---|---:|
+| Getting the list in, and skipping numbers that must not be called | 10 |
+| The greeting, the yes or no questions, and taking someone off the list | 12 |
+| Handing a person who stays to a free volunteer, and ending the call if nobody is free | 12 |
+| Stop, the daily spending limit, daytime hours, and Canada only | 10 |
+| The page the room uses | 10 |
+| Testing on my machines, and the fixes | 16 |
+| Total | 70 |
+
+$50 US an hour is about $71 Canadian. That is an ordinary freelance rate in British Columbia, not a senior rate and not a shop rate. A shop would charge about twice that. The same 70 hours at a shop would be about $8,000 to $10,000 US. $4,000 is the low end of having this desk built.
+
+A rented campaign dialer is cheaper. At a published list price it is about $1,125 US for 25,000 dials, because that software already exists. This price is not trying to undercut that. It is the cost of building this desk for you. Against a person or a shop doing that build, $4,000 is the competitive figure.
+
+The $500 is not the purchase of the machines. Buying either one would cost thousands. Renting a serious test machine for a month is a few hundred dollars. $500 is that use, once.
+
+About $700 in US dollars is an estimate for accounts billed to you, not to me. I stop if that estimate reaches $700 in US dollars, before any tax those companies add. Phone minutes are yours, counted in steps of six seconds. Neither company that might carry the calls is inside the $4,000 or the $700. None of these figures is in Canadian dollars.
+
+Neither the $4,000 nor the $700 includes <abbr title="GST. The federal goods and services tax. It is not included in the fee, and it is not added to it.">GST</abbr> or <abbr title="PST. The British Columbia sales tax, 7% when a sale is taxable. It is not included in the fee.">PST</abbr>. <abbr title="GST. The federal goods and services tax. It is not included in the fee, and it is not added to it.">GST</abbr> is not added to my fee. <abbr title="PST. The British Columbia sales tax, 7% when a sale is taxable. It is not included in the fee.">PST</abbr> is 7% when a sale is taxable, and I am registered to collect it. The Province's software page says custom software built solely for one buyer may be bought by that buyer without PST. This desk is being built for OneBC alone, so PST is not added to the $4,000, and the invoice will say so. If a later charge is a right to use software I keep, rather than software built solely for you, PST is 7% on top and is shown on its own line. It is never inside the $4,000. This is the provincial rule as published, not a ruling on the invoice. Their page: [software](https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/software).
+
 
 [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/1)
