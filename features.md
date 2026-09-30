@@ -57,8 +57,8 @@ One transfer is placed for each free volunteer. If no one is free, the call ends
 ## Money and the end of the shift, this riding
 
 - You see how many calls and about how many seconds, before the shift starts.
-- Seconds add up while the room is open. Willing calls are shown against the dollars spent.
-- A dollar limit for the day stops the shift. Two calls at the same moment cannot slip past it.
+- Seconds add up while the room is open. Willing calls are shown against the US dollars spent.
+- A limit for the day, in US dollars, stops the shift. Two calls at the same moment cannot slip past it.
 - At the end of the day you get one sentence: reached, willing, spoke with someone, asked to stop, and seconds billed.
 - You can download the results without opening a database.
 
@@ -88,7 +88,7 @@ One transfer is placed for each free volunteer. If no one is free, the call ends
 
 Checked 29 September 2026. Two companies. No contract is signed.
 
-**<abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent <abbr title="US. United States.">US</abbr> per minute. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
+**<abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent per minute, in US dollars. VoIP.ms bills the account in US dollars, not Canadian dollars. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
 
 **Telnyx.** Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That company will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
 
@@ -103,7 +103,7 @@ How a call is rounded, from their own pages:
 | 61 seconds | 66 seconds | 120 seconds |
 | 96 seconds | 96 seconds | 120 seconds |
 
-At <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>, Canada inside the ten provinces is published at half a cent <abbr title="US. United States.">US</abbr> per minute. A 5-second call then costs about a twentieth of a cent. A 32-second call costs about three tenths of a cent. Telnyx does not publish one Canada rate on the page we checked, so the dollar amount is not shown here. The time they bill is: a short call becomes a full minute, and a call just over a minute becomes two.
+At <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>, Canada inside the ten provinces is published at half a cent per minute, in US dollars. A 5-second call then costs about a twentieth of a cent. A 32-second call costs about three tenths of a cent. Telnyx bills in US dollars. It does not publish one Canada rate on the page we checked, so the amount is not shown here. The time they bill is: a short call becomes a full minute, and a call just over a minute becomes two.
 
 No company we found bills a true one second at a time and also does the whole phone job. If one appears, it can replace <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.
 
@@ -112,7 +112,7 @@ No company we found bills a true one second at a time and also does the whole ph
 
 The list stays in Canada. A machine in Hillsboro, Oregon is not used for this riding, because the voter list, the notes, and the removal list would leave the country. The Hillsboro price published earlier is not the price for this shift.
 
-**Cloudflare** is only the front door. The name lookup and the door in front of the page are on the free plan. That part is $0. The list is not cached there. A domain name, if it is bought there, is a separate yearly fee.
+**Cloudflare** is only the front door. The name lookup and the door in front of the page are on the free plan. That part is $0. The list is not cached there. A domain name, if it is bought there, is a separate yearly fee in US dollars. Cloudflare does not bill that fee in Canadian dollars.
 
 
 ## If a provider refuses the campaign

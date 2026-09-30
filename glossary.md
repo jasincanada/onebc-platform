@@ -13,7 +13,6 @@ On the other pages, a short form has a dotted underline. On a computer, rest on 
 | OneBC | The party this briefing is written for. The name is OneBC. |
 | p.m. | After noon. |
 | Postgres | Short for PostgreSQL. The database that holds the list, the notes, and the removal list. |
-| US | United States. |
 | VoIP | A phone call carried over the internet. On these pages it appears in the name VoIP.ms, the Canadian phone company. |
 
 These are the only short forms on the site. A company name that is not a short form, such as Telnyx or Cloudflare, is not listed here.
