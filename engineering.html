@@ -34,7 +34,7 @@
     <tr><th>Piece</th><th>Choice</th></tr>
     <tr><td>Page and desk</td><td>Node 24, TypeScript 7.0.2. TypeScript has no long-term line, so this is the current stable release.</td></tr>
     <tr><td>Records</td><td>Postgres only. Not flat files, and not a laptop database, for the riding.</td></tr>
-    <tr><td>Server</td><td>Ubuntu 26.04.  The list, the notes, and the removal list stay on a machine in Canada. Hillsboro is not used for this riding. Cloudflare's name lookup and front door are $0, and the list is not cached there. A customer’s own Ubuntu machine is a second profile and must pass the same checks. A laptop is for building only.</td></tr>
+    <tr><td>Server</td><td>Ubuntu 26.04.  The list, the notes, and the removal list stay on a machine in Canada. Hillsboro is not used for this riding. Cloudflare's name lookup and front door are $0, and the list is not cached there. A customer’s own Ubuntu machine is a second profile only if it is in Canada and passes the same checks. A laptop is for building only.</td></tr>
     <tr><td>Front door</td><td>The database is not on the public internet. The page is reached through the outer firewall. Port 8080 is not open.</td></tr>
     <tr><td>Phone billing</td><td>A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. VoIP.ms publishes six-second billing for Canada and is the riding candidate. Telnyx publishes 60-second billing, says it no longer offers six-second billing, and must not carry this riding. An account that rounds up to a full minute throws before any network call.</td></tr>
   </table>
