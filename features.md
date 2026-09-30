@@ -32,6 +32,7 @@ This is the full list. The first riding uses the items marked for now. The rest 
 - One test call to a number you choose. Then the test locks.
 - Recording is off unless you turn it on. If it is on, the greeting says so.
 - English first.
+- The phone bill is counted in steps of six seconds. That is the closest available right now. A full minute, rounded up, will not be used. A true one-second account can replace it later, if one is found.
 
 ## The list, this riding
 

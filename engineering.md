@@ -24,7 +24,7 @@ The customer grant from a Connect button is stored encrypted. A raw key is not s
 | Records | Postgres only. Not flat files, and not a laptop database, for the riding. |
 | Server | Ubuntu 26.04. Default host is a small rented machine in Hillsboro, the West Coast site. A customer’s own Ubuntu machine is a second profile and must pass the same checks. A laptop is for building only. |
 | Front door | The database is not on the public internet. The page is reached through the outer firewall. Port 8080 is not open. |
-| Phone billing | A riding profile refuses to dial unless the account bills by the second. Six-second and sixty-second accounts throw before any network call. |
+| Phone billing | A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. An account that rounds up to a full minute throws before any network call. |
 
 ## Where the drafts stand
 
@@ -54,7 +54,7 @@ Older drafts in that repository belong to the doctor search. They are not part o
 ## Rules the code must keep
 
 - Outbound is off unless the exact live value is set, and only after the second confirmation.
-- A missing host profile, a missing phone connection, or a non-one-second bill sends nothing.
+- A missing host profile, a missing phone connection, or a bill that rounds up to a full minute sends nothing. A six-second step is allowed.
 - A list with no permission flag dials nothing.
 - Stop can list and hang up only the calls this desk owns.
 - Customer lists are not copied into the software image. Research files for the doctor search stay out of the riding host.
@@ -62,6 +62,6 @@ Older drafts in that repository belong to the doctor search. They are not part o
 - On shutdown, new dials pause. A call already up is not dropped outside the stop path.
 - The application database role cannot drop tables. Backups go to a second path. The status line is not green without a recent copy there.
 
-No live call has been placed from this work. The one-second Canada rate is not yet confirmed in writing, so the phone step is specified to stay Not connected until it is.
+No live call has been placed from this work. True per-second billing is not confirmed. Six-second billing is the working rule until a one-second account is found.
 
 [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
