@@ -90,7 +90,7 @@ Checked 29 September 2026. Two companies. No contract is signed.
 
 **<abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent <abbr title="US. United States.">US</abbr> per minute. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
 
-**Telnyx.** Already used for a separate doctor search. Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That account will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
+**Telnyx.** Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That company will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
 
 
 How a call is rounded, from their own pages:

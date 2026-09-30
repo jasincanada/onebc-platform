@@ -6,13 +6,13 @@ Roadmap, page 3 of 3. A GitHub account is enough to comment.
 
 The build is in draft. Calling is off. Nothing on this page, or in those drafts, places a live call by itself.
 
-This public site is the briefing. The riding will be its own product, in its own private repository. It will not share code, a database, a phone account, or a list with any other project. That product has not been started. Calling is off.
+This public site is the briefing. The riding is its own product, in its own private repository. That product has not been started. Calling is off.
 
 ## The shape
 
 ![The page, the desk, and the connections. The server stays off the page.](assets/desk.svg)
 
-The phone line, the trunk, the call control, fax, and mail are separate connections. The desk chooses them from configuration. Business rules do not call a vendor by name. This product does not contain another project's records, and another project cannot dial this list.
+The phone line, the trunk, the call control, fax, and mail are separate connections. The desk chooses them from configuration. Business rules do not call a vendor by name.
 
 The customer grant from a Connect button is stored encrypted. A raw key is not stored in the clear. If a vendor has no Connect button, that step stays Not connected. The desk registers its own callbacks. The room is not sent to a vendor page to paste an address.
 
@@ -28,9 +28,7 @@ The customer grant from a Connect button is stored encrypted. A raw key is not s
 
 ## Where the code stands
 
-The riding is not a mode of another project. Drafts written for a different search stay in that other repository. They are not this product, and they are not linked here.
-
-Coding help on the Pro plan is spent until 1 October 2026. This product's own repository has not been created. Nothing in it can dial, because it does not exist yet.
+Coding help on the Pro plan is spent until 1 October 2026. This product's repository has not been created. Nothing in it can dial, because it does not exist yet.
 
 ## Rules the code must keep
 
@@ -38,7 +36,7 @@ Coding help on the Pro plan is spent until 1 October 2026. This product's own re
 - A missing host profile, a missing phone connection, or a bill that rounds up to a full minute sends nothing. A six-second step is allowed.
 - A list with no permission flag dials nothing.
 - Stop can list and hang up only the calls this desk owns.
-- Customer lists are not copied into the software image. No other project's files are stored on this host.
+- Customer lists are not copied into the software image.
 - Logs do not contain a full phone number.
 - On shutdown, new dials pause. A call already up is not dropped outside the stop path.
 - The application database role cannot drop tables. Backups go to a second path. The status line is not green without a recent copy there.
