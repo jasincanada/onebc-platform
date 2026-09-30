@@ -2,7 +2,7 @@
 
 **The day** · [Features](features.md) · [Engineering](engineering.md) · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/1)
 
-Roadmap, page 1 of 3. For Summer. One riding. Daytime. 29 September 2026. A note can be left on the website without a GitHub account.
+Roadmap, page 1 of 3. For Summer. One riding. Daytime. 29 September 2026. Comments are on the GitHub discussion for that page.
 
 You have already rented the centre. Your people already know a shift. The missing piece is a chair used for a person who stayed, not for a recording that no one answers.
 

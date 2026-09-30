@@ -2,7 +2,7 @@
 
 [The day](README.md) · **Features** · [Engineering](engineering.md) · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/2)
 
-Roadmap, page 2 of 3. A note can be left on the website without a GitHub account.
+Roadmap, page 2 of 3. Comments are on the GitHub discussion for that page.
 
 This is the full list. The first riding uses the items marked for now. The rest wait until after 24 October.
 
