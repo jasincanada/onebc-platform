@@ -82,6 +82,19 @@ Checked 29 September 2026. Two companies. No contract is signed.
 
 **Telnyx.** Already used for a separate doctor search. Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That account will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
 
+
+How a call is rounded, from their own pages:
+
+| How long someone stayed | VoIP.ms bills | Telnyx bills |
+|---|---|---|
+| 5 seconds | 6 seconds | 60 seconds |
+| 11 seconds | 12 seconds | 60 seconds |
+| 32 seconds | 36 seconds | 60 seconds |
+| 61 seconds | 66 seconds | 120 seconds |
+| 96 seconds | 96 seconds | 120 seconds |
+
+At VoIP.ms, Canada inside the ten provinces is published at half a cent US per minute. A 5-second call then costs about a twentieth of a cent. A 32-second call costs about three tenths of a cent. Telnyx does not publish one Canada rate on the page we checked, so the dollar amount is not shown here. The time they bill is: a short call becomes a full minute, and a call just over a minute becomes two.
+
 No company we found bills a true one second at a time and also does the whole phone job. If one appears, it can replace VoIP.ms.
 
 ## After this riding
