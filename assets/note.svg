@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" role="img" aria-labelledby="nt nd">
-  <title id="nt">The note at the end of the shift</title>
-  <desc id="nd">Five facts: reached, willing, spoke with someone, asked to stop, and seconds billed.</desc>
-  <rect width="880" height="200" fill="#f3efe6"/>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="13" x="40" y="36">WHEN THE SHIFT ENDS</text>
-  <g font-family="Georgia, Palatino, serif" font-size="15" fill="#241f1a">
-    <rect x="40" y="56" width="150" height="100" fill="#f7f4ee" stroke="#241f1a"/>
-    <text x="115" y="112" text-anchor="middle">Reached</text>
-    <rect x="206" y="56" width="150" height="100" fill="#f7f4ee" stroke="#241f1a"/>
-    <text x="281" y="112" text-anchor="middle">Willing</text>
-    <rect x="372" y="56" width="150" height="100" fill="#e7eee9" stroke="#3e5348"/>
-    <text x="447" y="104" text-anchor="middle">Spoke with</text>
-    <text x="447" y="124" text-anchor="middle">someone</text>
-    <rect x="538" y="56" width="150" height="100" fill="#f6ebe6" stroke="#8c4a3a"/>
-    <text x="613" y="104" text-anchor="middle">Asked</text>
-    <text x="613" y="124" text-anchor="middle">to stop</text>
-    <rect x="704" y="56" width="136" height="100" fill="#f7f4ee" stroke="#241f1a"/>
-    <text x="772" y="104" text-anchor="middle">Seconds</text>
-    <text x="772" y="124" text-anchor="middle">billed</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" role="img">
+  <title>The note at the end of the shift</title>
+  <rect width="880" height="230" rx="8" fill="#fbf8f3"/>
+  <text fill="#2f4a40" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" x="28" y="36">WHEN THE SHIFT ENDS</text>
+  <g font-family="Georgia, Palatino, serif" font-size="16" fill="#1e1a16">
+    <rect x="28" y="58" width="156" height="132" rx="14" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text x="106" y="130" text-anchor="middle">Reached</text>
+    <rect x="200" y="58" width="156" height="132" rx="14" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text x="278" y="130" text-anchor="middle">Willing</text>
+    <rect x="372" y="58" width="156" height="132" rx="14" fill="#e7efe9" stroke="#2f4a40"/>
+    <text x="450" y="122" text-anchor="middle">Spoke with</text>
+    <text x="450" y="146" text-anchor="middle">someone</text>
+    <rect x="544" y="58" width="156" height="132" rx="14" fill="#f8ece7" stroke="#8c4a3a"/>
+    <text x="622" y="122" text-anchor="middle">Asked</text>
+    <text x="622" y="146" text-anchor="middle">to stop</text>
+    <rect x="716" y="58" width="136" height="132" rx="14" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text x="784" y="122" text-anchor="middle">Seconds</text>
+    <text x="784" y="146" text-anchor="middle">billed</text>
   </g>
 </svg>

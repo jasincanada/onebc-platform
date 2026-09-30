@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" role="img" aria-labelledby="t d">
-  <title id="t">The same room, two kinds of shift</title>
-  <desc id="d">Without the desk, chairs are spent on silence. With the desk, chairs are spent on people who stayed.</desc>
-  <rect width="880" height="280" fill="#f3efe6"/>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="13" x="40" y="36">THE ROOM YOU ALREADY RENT</text>
-  <rect x="40" y="56" width="380" height="180" fill="#f7f4ee" stroke="#b9b1a4"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="22" x="64" y="100">A dial that goes nowhere</text>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="16" x="64" y="136">Voicemail. Wrong numbers.</text>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="16" x="64" y="162">People who want off the list.</text>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="16" x="64" y="188">A chair, used up.</text>
-  <rect x="460" y="56" width="380" height="180" fill="#e7eee9" stroke="#3e5348"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="22" x="484" y="100">A person who stayed</text>
-  <text fill="#3e5348" font-family="Georgia, Palatino, serif" font-size="16" x="484" y="136">They know who called.</text>
-  <text fill="#3e5348" font-family="Georgia, Palatino, serif" font-size="16" x="484" y="162">They answered the questions.</text>
-  <text fill="#3e5348" font-family="Georgia, Palatino, serif" font-size="16" x="484" y="188">Your caller makes the ask.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" role="img">
+  <title>The same room, two kinds of shift</title>
+  <rect width="880" height="300" rx="8" fill="#fbf8f3"/>
+  <text fill="#2f4a40" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" x="36" y="36">THE ROOM YOU ALREADY RENT</text>
+  <rect x="36" y="56" width="390" height="208" rx="14" fill="#f3efe6" stroke="#e4dcd0"/>
+  <text fill="#1e1a16" font-family="Georgia, Palatino, serif" font-size="26" x="60" y="108">A dial that goes nowhere</text>
+  <text fill="#5e584f" font-family="Georgia, Palatino, serif" font-size="17" x="60" y="152">Voicemail. Wrong numbers.</text>
+  <text fill="#5e584f" font-family="Georgia, Palatino, serif" font-size="17" x="60" y="180">People who want off the list.</text>
+  <text fill="#5e584f" font-family="Georgia, Palatino, serif" font-size="17" x="60" y="208">A chair, used up.</text>
+  <rect x="454" y="56" width="390" height="208" rx="14" fill="#e7efe9" stroke="#2f4a40"/>
+  <text fill="#1e1a16" font-family="Georgia, Palatino, serif" font-size="26" x="478" y="108">A person who stayed</text>
+  <text fill="#2f4a40" font-family="Georgia, Palatino, serif" font-size="17" x="478" y="152">They know who called.</text>
+  <text fill="#2f4a40" font-family="Georgia, Palatino, serif" font-size="17" x="478" y="180">They answered the questions.</text>
+  <text fill="#2f4a40" font-family="Georgia, Palatino, serif" font-size="17" x="478" y="208">Your caller makes the ask.</text>
 </svg>

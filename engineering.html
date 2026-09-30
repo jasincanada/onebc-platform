@@ -30,18 +30,18 @@
   <p>The customer grant from a Connect button is stored encrypted. A raw key is not stored in the clear. If a vendor has no Connect button, that step stays Not connected. The desk registers its own callbacks. The room is not sent to a vendor page to paste an address.</p>
 
   <h2>The stack</h2>
-  <table>
+  <div class="table-wrap"><table>
     <tr><th>Piece</th><th>Choice</th></tr>
     <tr><td>Page and desk</td><td>Node 24, TypeScript 7.0.2. TypeScript has no long-term line, so this is the current stable release.</td></tr>
     <tr><td>Records</td><td>Postgres only. Not flat files, and not a laptop database, for the riding.</td></tr>
     <tr><td>Server</td><td>Ubuntu 26.04.  The list, the notes, and the removal list stay on a machine in Canada. Hillsboro is not used for this riding. Cloudflare's name lookup and front door are $0, and the list is not cached there. A customer’s own Ubuntu machine is a second profile only if it is in Canada and passes the same checks. A laptop is for building only.</td></tr>
     <tr><td>Front door</td><td>The database is not on the public internet. The page is reached through the outer firewall. Port 8080 is not open.</td></tr>
     <tr><td>Phone billing</td><td>A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. VoIP.ms publishes six-second billing for Canada and is the riding candidate. Telnyx publishes 60-second billing, says it no longer offers six-second billing, and must not carry this riding. An account that rounds up to a full minute throws before any network call.</td></tr>
-  </table>
+  </table></div>
 
   <h2>Where the drafts stand</h2>
   <p>Coding help on the Pro plan is spent until 1 October 2026. Several drafts stopped mid-write. Their last note is “Changes before error encountered.” None are merged.</p>
-  <table>
+  <div class="table-wrap"><table>
     <tr><th>Work</th><th>Private issue</th><th>Draft</th></tr>
     <tr><td>The desk, the list, the short call, the handoff</td><td><a href="https://github.com/jasincanada/doctorhunter/issues/28">28</a></td><td><a href="https://github.com/jasincanada/doctorhunter/pull/29">29</a></td></tr>
     <tr><td>Who may do what</td><td><a href="https://github.com/jasincanada/doctorhunter/issues/30">30</a></td><td><a href="https://github.com/jasincanada/doctorhunter/pull/34">34</a></td></tr>
@@ -59,7 +59,7 @@
     <tr><td>Home screen</td><td></td><td><a href="https://github.com/jasincanada/doctorhunter/pull/23">23</a></td></tr>
     <tr><td>Past calls</td><td></td><td><a href="https://github.com/jasincanada/doctorhunter/pull/21">21</a></td></tr>
     <tr><td>Whether calling is on</td><td></td><td><a href="https://github.com/jasincanada/doctorhunter/pull/20">20</a></td></tr>
-  </table>
+  </table></div>
   <p>Older drafts in that repository belong to the doctor search. They are not part of this riding, and they are not linked here.</p>
 
   <h2>Rules the code must keep</h2>

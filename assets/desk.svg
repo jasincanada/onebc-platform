@@ -1,24 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" role="img" aria-labelledby="t d">
-  <title id="t">How the desk is divided</title>
-  <desc id="d">The page in the room talks to the desk. The desk talks to separate connections for the phone, the list, and the mail. The rented server is not on that page.</desc>
-  <rect width="880" height="340" fill="#f3efe6"/>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="13" x="40" y="36">WHAT THE ROOM SEES, AND WHAT IT DOES NOT</text>
-  <rect x="40" y="64" width="240" height="88" fill="#f7f4ee" stroke="#241f1a"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="16" x="160" y="104" text-anchor="middle">The page</text>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="13" x="160" y="126" text-anchor="middle">in the call centre</text>
-  <line x1="280" y1="108" x2="318" y2="108" stroke="#241f1a"/>
-  <polygon points="326,108 316,103 316,113" fill="#241f1a"/>
-  <rect x="326" y="64" width="200" height="88" fill="#e7eee9" stroke="#3e5348"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="16" x="426" y="115" text-anchor="middle">The desk</text>
-  <line x1="526" y1="108" x2="564" y2="108" stroke="#241f1a"/>
-  <polygon points="572,108 562,103 562,113" fill="#241f1a"/>
-  <rect x="572" y="56" width="268" height="36" fill="#f7f4ee" stroke="#241f1a"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="14" x="706" y="79" text-anchor="middle">Phone account</text>
-  <rect x="572" y="100" width="268" height="36" fill="#f7f4ee" stroke="#241f1a"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="14" x="706" y="123" text-anchor="middle">The list</text>
-  <rect x="572" y="144" width="268" height="36" fill="#f7f4ee" stroke="#241f1a"/>
-  <text fill="#241f1a" font-family="Georgia, Palatino, serif" font-size="14" x="706" y="167" text-anchor="middle">Mail</text>
-  <rect x="40" y="220" width="800" height="72" fill="#f7f4ee" stroke="#b9b1a4"/>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="16" x="440" y="252" text-anchor="middle">The server stays off this page.</text>
-  <text fill="#5c564e" font-family="Georgia, Palatino, serif" font-size="14" x="440" y="274" text-anchor="middle">Calling stays off until you turn it on.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img">
+  <title>How the desk is divided</title>
+  <rect width="880" height="360" rx="8" fill="#fbf8f3"/>
+  <text fill="#2f4a40" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" x="36" y="36">WHAT THE ROOM SEES, AND WHAT IT DOES NOT</text>
+  <g font-family="Georgia, Palatino, serif" fill="#1e1a16">
+    <rect x="36" y="64" width="230" height="110" rx="14" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text font-size="20" x="151" y="108" text-anchor="middle">The page</text>
+    <text font-size="15" fill="#5e584f" x="151" y="136" text-anchor="middle">in the call centre</text>
+    <rect x="330" y="64" width="200" height="110" rx="14" fill="#e7efe9" stroke="#2f4a40"/>
+    <text font-size="20" x="430" y="126" text-anchor="middle">The desk</text>
+    <rect x="590" y="56" width="254" height="42" rx="12" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text font-size="16" x="717" y="82" text-anchor="middle">Phone account</text>
+    <rect x="590" y="108" width="254" height="42" rx="12" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text font-size="16" x="717" y="134" text-anchor="middle">The list</text>
+    <rect x="590" y="160" width="254" height="42" rx="12" fill="#fbf8f3" stroke="#1e1a16"/>
+    <text font-size="16" x="717" y="186" text-anchor="middle">Mail</text>
+  </g>
+  <path d="M266 119 H330" stroke="#1e1a16" stroke-width="1.4" fill="none"/>
+  <polygon points="330,119 322,114 322,124" fill="#1e1a16"/>
+  <path d="M530 119 H590" stroke="#1e1a16" stroke-width="1.4" fill="none"/>
+  <polygon points="590,119 582,114 582,124" fill="#1e1a16"/>
+  <rect x="36" y="236" width="808" height="88" rx="14" fill="#f3efe6" stroke="#e4dcd0"/>
+  <text fill="#5e584f" font-family="Georgia, Palatino, serif" font-size="18" x="440" y="274" text-anchor="middle">The server stays off this page.</text>
+  <text fill="#5e584f" font-family="Georgia, Palatino, serif" font-size="16" x="440" y="300" text-anchor="middle">Calling stays off until you turn it on.</text>
 </svg>
