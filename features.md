@@ -32,6 +32,10 @@ This is the full list. The first riding uses the items marked for now. The rest 
 - One test call to a number you choose. Then the test locks.
 - Recording is off unless you turn it on. If it is on, the greeting says so.
 - English first.
+- The number shown on the person’s phone is one the party controls. If it is missing, nothing dials.
+- The opening also includes an email or a mailing address, kept valid for 60 days, and the purpose in one line.
+- No text and no email to the people on the list.
+- A removal is kept at least three years.
 - The phone bill is counted in steps of six seconds. That is the closest available right now. A full minute, rounded up, will not be used. A true one-second account can replace it later, if one is found.
 
 ## The list, this riding
@@ -100,11 +104,9 @@ No company we found bills a true one second at a time and also does the whole ph
 
 ## The server and the front door
 
-Checked 29 September 2026. These are the only two charges that matter. Nothing else from either company is part of this riding.
+The list stays in Canada. A machine in Hillsboro, Oregon is not used for this riding, because the voter list, the notes, and the removal list would leave the country. The Hillsboro price published earlier is not the price for this shift.
 
-**Hetzner** rents the machine. It sits in Hillsboro, Oregon. The smallest shared machine sold there is listed as $0.0328 US an hour, or $20.49 US for the month, before tax. The hour charges stop when they reach that monthly price. The public address is a separate line, $0.60 US a month before tax. A full month of that machine plus the address is $21.09 US before tax. Their price note is the [15 June 2026 adjustment](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) and the [address price](https://docs.hetzner.com/cloud/servers/primary-ips/overview/).
-
-**Cloudflare** is the front door. The name lookup and the door in front of the page are on the free plan. That part is $0, with no usage meter. A domain name, if it is bought there, is a separate yearly fee, not a monthly bill. It is not inside the machine price.
+**Cloudflare** is only the front door. The name lookup and the door in front of the page are on the free plan. That part is $0. The list is not cached there. A domain name, if it is bought there, is a separate yearly fee.
 
 ## After this riding
 

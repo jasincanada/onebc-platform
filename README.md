@@ -47,11 +47,11 @@ One note. No chase through a pile of paper.
 
 ## The rules
 
-This is canvassing. The people called are voters and candidates. A recording may identify who is calling and ask yes or no. It may not ask for a vote, money, or support. That ask is a person in the room. If no one is free, the call ends. Nobody is left on hold.
+This is canvassing of voters and candidates. The recording may say who is calling and ask yes or no. It may not ask for a vote, money, or support. If no one in the room is free, the call ends. Nobody is left on hold. The number on the screen is one the party controls.
 
-Parties are exempt from the National Do Not Call List. They are not exempt from identifying themselves, or from honouring a person who asks to stop. The desk will not dial unless the opening, the hours, and your permission for the list are in place.
+A person who asks to stop is removed immediately and kept off the list for at least three years. The list itself stays in Canada. The desk will not dial if the opening, the hours, the permission, or a required election confirmation is missing.
 
-The detail, including privacy and the difference between a federal registration and a B.C. election rule, is on [The rules](compliance.md). This page is the design. It is not a lawyer’s letter. Outbound stays off until you turn it on.
+Every duty found in the CRTC rules, the privacy duties, and the election filings is on [The rules](compliance.md), with what the desk does about each one. Meeting those duties is the claim. A regulator has not certified the desk. The software is still a draft. Outbound stays off.
 
 Through 24 October 2026. One riding. $800 is my time and the machines I build on. About $700 is an estimate for accounts billed to you, not to me. Phone minutes are yours, counted in steps of six seconds. That is the closest we can get for now. A company that rounds every call up to a full minute will not be used. VoIP.ms is the six-second account the riding can use. Telnyx bills full minutes and stays on the doctor search only. They sit outside both figures. Nothing on this page places a call.
 
