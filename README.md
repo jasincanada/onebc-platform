@@ -1,6 +1,6 @@
 # A room where people are actually on the line
 
-Private briefing for Summer. OneBC. One riding. Daytime. 29 September 2026.
+For Summer. OneBC. One riding. Daytime. 29 September 2026.
 
 You have already rented the centre. Your people already know a shift. The missing piece is a chair used for a person who stayed, not for a recording that no one answers.
 
