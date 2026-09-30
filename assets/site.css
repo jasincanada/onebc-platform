@@ -145,3 +145,42 @@ abbr {
   text-underline-offset: 0.18em;
   cursor: help;
 }
+
+#note {
+  margin-top: 28px;
+  padding: 8px 18px 4px;
+  background: #f3efe6;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+#note label, #note .sent {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#note label {
+  display: block;
+  margin: 14px 0 6px;
+  font-size: 14px;
+  color: var(--quiet);
+}
+#note input, #note textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd4c6;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+#note button {
+  margin: 16px 0;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--moss);
+  color: #fbf8f3;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+#note .sent { margin: 18px 0; }
+.hp { position: absolute; left: -10000px; height: 0; width: 0; }
