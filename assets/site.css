@@ -138,3 +138,9 @@ strong { font-weight: 600; }
   .comment { margin-left: 0; }
   nav { gap: 10px 16px; }
 }
+
+abbr {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.18em;
+  cursor: help;
+}
