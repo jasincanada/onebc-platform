@@ -2,7 +2,7 @@
 
 [The day](README.md) · [Features](features.md) · **Engineering** · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
 
-Roadmap, page 3 of 3. A GitHub account is enough to comment.
+Roadmap, page 3 of 3. A note can be left on the website without a GitHub account.
 
 The build is in draft. Calling is off. Nothing on this page, or in those drafts, places a live call by itself.
 
