@@ -44,6 +44,6 @@ A chair is only taken when someone is there to talk to.
 
 One note. No chase through a pile of paper.
 
-Through 24 October 2026. One riding. $800 is my time and the machines I build on. About $700 is an estimate for accounts billed to you, not to me. Phone minutes are yours, counted in steps of six seconds. That is the closest we can get for now. A company that rounds every call up to a full minute will not be used. They sit outside both figures. Nothing on this page places a call.
+Through 24 October 2026. One riding. $800 is my time and the machines I build on. About $700 is an estimate for accounts billed to you, not to me. Phone minutes are yours, counted in steps of six seconds. That is the closest we can get for now. A company that rounds every call up to a full minute will not be used. VoIP.ms is the six-second account the riding can use. Telnyx bills full minutes and stays on the doctor search only. They sit outside both figures. Nothing on this page places a call.
 
 [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/1)

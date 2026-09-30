@@ -24,7 +24,7 @@ The customer grant from a Connect button is stored encrypted. A raw key is not s
 | Records | Postgres only. Not flat files, and not a laptop database, for the riding. |
 | Server | Ubuntu 26.04. Default host is a small rented machine in Hillsboro, the West Coast site. A customer’s own Ubuntu machine is a second profile and must pass the same checks. A laptop is for building only. |
 | Front door | The database is not on the public internet. The page is reached through the outer firewall. Port 8080 is not open. |
-| Phone billing | A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. An account that rounds up to a full minute throws before any network call. |
+| Phone billing | A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. VoIP.ms publishes six-second billing for Canada and is the riding candidate. Telnyx publishes 60-second billing, says it no longer offers six-second billing, and must not carry this riding. An account that rounds up to a full minute throws before any network call. |
 
 ## Where the drafts stand
 

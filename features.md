@@ -73,6 +73,17 @@ This is the full list. The first riding uses the items marked for now. The rest 
 
 ![The path of one call](assets/call-flow.svg)
 
+
+## The phone companies we looked at
+
+Checked 29 September 2026. Two companies. No contract is signed.
+
+**VoIP.ms.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent US per minute. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
+
+**Telnyx.** Already used for a separate doctor search. Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That account will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
+
+No company we found bills a true one second at a time and also does the whole phone job. If one appears, it can replace VoIP.ms.
+
 ## After this riding
 
 - A Connect button for NationBuilder, then HubSpot, Maximizer, Salesforce, CiviCRM, or a Google Sheet. The first riding only needs the file.
