@@ -17,6 +17,12 @@ This is the full list. The first riding uses the items marked for now. The rest 
 - Search, and filters for passed, failed, transferred, and removed.
 - A caller cannot download the whole list, change the hours, or turn calling on.
 
+## The handoff, this riding
+
+When someone stays, the call is transferred to a free volunteer. The volunteer picks up a person who is ready to talk. They do not spend the chair on a recording, a voicemail, or a person who wants off the list.
+
+One transfer is placed for each free volunteer. If no one is free, the call ends instead of holding. A person calls back later.
+
 ## The call, this riding
 
 - The recorded voice says who is calling and gives a callback number. Then it asks yes or no.

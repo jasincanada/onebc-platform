@@ -12,6 +12,15 @@ You can walk the floor and know the day. You can stop it. You can set a dollar l
 
 This is not switched on. It does not call anyone until you say the shift is ready.
 
+
+## The handoff
+
+When someone stays, the call moves itself to a free volunteer in the room. The volunteer does not dial. They answer a person who already knows who is calling, and who already said yes.
+
+That is the chair you rented. It is used for the conversation, not for the sorting.
+
+If every volunteer is already talking, the call ends. The person is not left waiting in silence. Someone in the room calls them back later.
+
 ## The same room
 
 ![Two kinds of shift. Silence, or a person who stayed.](assets/shift.svg)
@@ -29,14 +38,14 @@ flowchart TD
   ask[Yes or no questions]
   stop[Asked to stop. Off the list.]
   none[No one there. The chair stays free.]
-  stay[They stayed. A person makes the ask.]
+  stay[They stayed. Handed to a free volunteer.]
   list --> greet --> ask
   ask --> stop
   ask --> none
   ask --> stay
 ```
 
-A chair is only taken when someone is there to talk to.
+The call is handed over only when a volunteer is free to take it.
 
 ## The end of the shift
 
