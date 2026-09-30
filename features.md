@@ -1,6 +1,6 @@
 # What the desk does
 
-[The day](README.md) · **Features** · [Engineering](engineering.md) · [The rules](compliance.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/2)
+[The day](README.md) · **Features** · [Engineering](engineering.md) · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/2)
 
 Roadmap, page 2 of 3. A GitHub account is enough to comment.
 
@@ -88,14 +88,14 @@ One transfer is placed for each free volunteer. If no one is free, the call ends
 
 Checked 29 September 2026. Two companies. No contract is signed.
 
-**VoIP.ms.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent US per minute. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
+**<abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.** A Canadian phone company. Their published rule for calls in Canada is six-second steps. A five-second call is billed as six seconds, not as a full minute. Calls inside the ten provinces are published at half a cent <abbr title="US. United States.">US</abbr> per minute. The territories are much more expensive, which is why those numbers stay off the list. This is the account the riding can use. Their pages: [Canada rates](https://voip.ms/index.php/en/rates/canada) and [how they bill](https://voip.ms/index.php/en/help-center/finances).
 
 **Telnyx.** Already used for a separate doctor search. Their published rule is sixty seconds. An eleven-second call is billed as a full minute. They say they no longer offer six-second billing. That account will not be used for this riding. Their page: [billing increments](https://support.telnyx.com/en/articles/1130659-billing-increments).
 
 
 How a call is rounded, from their own pages:
 
-| How long someone stayed | VoIP.ms bills | Telnyx bills |
+| How long someone stayed | <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr> bills | Telnyx bills |
 |---|---|---|
 | 5 seconds | 6 seconds | 60 seconds |
 | 11 seconds | 12 seconds | 60 seconds |
@@ -103,9 +103,9 @@ How a call is rounded, from their own pages:
 | 61 seconds | 66 seconds | 120 seconds |
 | 96 seconds | 96 seconds | 120 seconds |
 
-At VoIP.ms, Canada inside the ten provinces is published at half a cent US per minute. A 5-second call then costs about a twentieth of a cent. A 32-second call costs about three tenths of a cent. Telnyx does not publish one Canada rate on the page we checked, so the dollar amount is not shown here. The time they bill is: a short call becomes a full minute, and a call just over a minute becomes two.
+At <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>, Canada inside the ten provinces is published at half a cent <abbr title="US. United States.">US</abbr> per minute. A 5-second call then costs about a twentieth of a cent. A 32-second call costs about three tenths of a cent. Telnyx does not publish one Canada rate on the page we checked, so the dollar amount is not shown here. The time they bill is: a short call becomes a full minute, and a call just over a minute becomes two.
 
-No company we found bills a true one second at a time and also does the whole phone job. If one appears, it can replace VoIP.ms.
+No company we found bills a true one second at a time and also does the whole phone job. If one appears, it can replace <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>.
 
 
 ## The server and the front door
@@ -117,9 +117,9 @@ The list stays in Canada. A machine in Hillsboro, Oregon is not used for this ri
 
 ## If a provider refuses the campaign
 
-The companies named on this roadmap are the ones that fit the published rules as of 29 September 2026. None of them has been asked, in this study, to accept a political canvassing campaign for OneBC.
+The companies named on this roadmap are the ones that fit the published rules as of 29 September 2026. None of them has been asked, in this study, to accept a political canvassing campaign for <abbr title="OneBC. The party this briefing is written for.">OneBC</abbr>.
 
-If VoIP.ms, the Canadian machine, or the front door refuses the use because of compliance, dialing stops. A new study then names only the providers that will actually carry this campaign. A refused provider is not replaced quietly. Telnyx is already out, because it bills a full minute, not because it refused the campaign.
+If <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr>, the Canadian machine, or the front door refuses the use because of compliance, dialing stops. A new study then names only the providers that will actually carry this campaign. A refused provider is not replaced quietly. Telnyx is already out, because it bills a full minute, not because it refused the campaign.
 
 ## After this riding
 

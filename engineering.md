@@ -1,6 +1,6 @@
 # How it is built, and what is not finished
 
-[The day](README.md) · [Features](features.md) · **Engineering** · [The rules](compliance.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
+[The day](README.md) · [Features](features.md) · **Engineering** · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
 
 Roadmap, page 3 of 3. A GitHub account is enough to comment.
 
@@ -20,11 +20,11 @@ The customer grant from a Connect button is stored encrypted. A raw key is not s
 
 | Piece | Choice |
 |---|---|
-| Page and desk | Node 24, TypeScript 7.0.2. TypeScript has no long-term line, so this is the current stable release. |
-| Records | Postgres only. Not flat files, and not a laptop database, for the riding. |
+| Page and desk | <abbr title="Node. Short for Node.js, the program that runs the desk.">Node</abbr> 24, TypeScript 7.0.2. TypeScript has no long-term line, so this is the current stable release. |
+| Records | <abbr title="Postgres. Short for PostgreSQL, the database that holds the list.">Postgres</abbr> only. Not flat files, and not a laptop database, for the riding. |
 | Server | Ubuntu 26.04.  The list, the notes, and the removal list stay on a machine in Canada. Hillsboro is not used for this riding. Cloudflare's name lookup and front door are $0, and the list is not cached there. A customer’s own Ubuntu machine is a second profile only if it is in Canada and passes the same checks. A laptop is for building only. |
 | Front door | The database is not on the public internet. The page is reached through the outer firewall. Port 8080 is not open. |
-| Phone billing | A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. VoIP.ms publishes six-second billing for Canada and is the riding candidate. Telnyx publishes 60-second billing, says it no longer offers six-second billing, and must not carry this riding. An account that rounds up to a full minute throws before any network call. |
+| Phone billing | A riding profile may dial when the account bills by the second or in steps of six seconds. No all-in-one provider with true per-second billing is confirmed, so six seconds is allowed for now. <abbr title="VoIP.ms. VoIP means a phone call carried over the internet. This is the Canadian phone company.">VoIP.ms</abbr> publishes six-second billing for Canada and is the riding candidate. Telnyx publishes 60-second billing, says it no longer offers six-second billing, and must not carry this riding. An account that rounds up to a full minute throws before any network call. |
 
 ## Where the code stands
 
