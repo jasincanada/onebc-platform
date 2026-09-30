@@ -20,14 +20,14 @@
     <h1>How it is built, and what is not finished.</h1>
   </header>
   <p class="lede">The build is in draft. Calling is off. Nothing on this page, or in those drafts, places a live call by itself.</p>
-  <p>This public site is the briefing. The riding will be its own product, in its own private repository. It will not share code, a database, a phone account, or a list with any other project. That product has not been started. Calling is off.</p>
+  <p>This public site is the briefing. The riding is its own product, in its own private repository. That product has not been started. Calling is off.</p>
 
   <h2>The shape</h2>
   <figure>
     <img src="assets/desk.svg" alt="The page in the call centre talks to the desk. The desk talks separately to the phone account, the list, and the mail. The server is not on the page. Calling stays off until it is turned on.">
     <figcaption>The room never sees the server. A missing connection sends nothing.</figcaption>
   </figure>
-  <p>The phone line, the trunk, the call control, fax, and mail are separate connections. The desk chooses them from configuration. Business rules do not call a vendor by name. This product does not contain another project's records, and another project cannot dial this list.</p>
+  <p>The phone line, the trunk, the call control, fax, and mail are separate connections. The desk chooses them from configuration. Business rules do not call a vendor by name.</p>
   <p>The customer grant from a Connect button is stored encrypted. A raw key is not stored in the clear. If a vendor has no Connect button, that step stays Not connected. The desk registers its own callbacks. The room is not sent to a vendor page to paste an address.</p>
 
   <h2>The stack</h2>
@@ -41,8 +41,7 @@
   </table></div>
 
   <h2>Where the code stands</h2>
-  <p>The riding is not a mode of another project. Drafts written for a different search stay in that other repository. They are not this product, and they are not linked here.</p>
-  <p>Coding help on the Pro plan is spent until 1 October 2026. This product's own repository has not been created. Nothing in it can dial, because it does not exist yet.</p>
+  <p>Coding help on the Pro plan is spent until 1 October 2026. This product's repository has not been created. Nothing in it can dial, because it does not exist yet.</p>
 
   <h2>Rules the code must keep</h2>
   <ul>
@@ -50,7 +49,7 @@
     <li>A missing host profile, a missing phone connection, or a bill that rounds up to a full minute sends nothing. A six-second step is allowed.</li>
     <li>A list with no permission flag dials nothing.</li>
     <li>Stop can list and hang up only the calls this desk owns.</li>
-    <li>Customer lists are not copied into the software image. No other project's files are stored on this host.</li>
+    <li>Customer lists are not copied into the software image.</li>
     <li>Logs do not contain a full phone number.</li>
     <li>On shutdown, new dials pause. A call already up is not dropped outside the stop path.</li>
     <li>The application database role cannot drop tables. Backups go to a second path. The status line is not green without a recent copy there.</li>
