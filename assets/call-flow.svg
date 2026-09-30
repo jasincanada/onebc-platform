@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">Path of one call</title>
+  <desc id="desc">A permitted list leads to a short greeting and yes or no questions. A request to stop removes the number. No answer leaves the chair free. A person who stays is handed to someone in the room.</desc>
+  <style>
+    .ink { fill: #241f1a; font-family: Georgia, Palatino, serif; }
+    .small { fill: #5c564e; font-family: Georgia, Palatino, serif; font-size: 13px; }
+    .box { fill: #f7f4ee; stroke: #241f1a; stroke-width: 1.25; }
+    .moss { fill: #e7eee9; stroke: #3e5348; stroke-width: 1.25; }
+    .clay { fill: #f6ebe6; stroke: #8c4a3a; stroke-width: 1.25; }
+    .mute { fill: #f3efe6; stroke: #b9b1a4; stroke-width: 1.25; }
+    .line { stroke: #241f1a; stroke-width: 1.25; fill: none; }
+    .label { font-size: 15px; }
+  </style>
+  <rect width="880" height="460" fill="#f3efe6"/>
+  <text class="small" x="40" y="36">ONE CALL</text>
+  <rect class="box" x="300" y="56" width="280" height="52" rx="2"/>
+  <text class="ink label" x="440" y="87" text-anchor="middle">The list you may call</text>
+  <line class="line" x1="440" y1="108" x2="440" y2="132"/>
+  <polygon points="440,140 435,130 445,130" fill="#241f1a"/>
+  <rect class="box" x="300" y="140" width="280" height="52" rx="2"/>
+  <text class="ink label" x="440" y="171" text-anchor="middle">They hear who is calling</text>
+  <line class="line" x1="440" y1="192" x2="440" y2="216"/>
+  <polygon points="440,224 435,214 445,214" fill="#241f1a"/>
+  <rect class="box" x="300" y="224" width="280" height="52" rx="2"/>
+  <text class="ink label" x="440" y="255" text-anchor="middle">Yes or no questions</text>
+  <path class="line" d="M440 276 V300 H160 V324"/>
+  <path class="line" d="M440 300 H440 V324"/>
+  <path class="line" d="M440 300 H720 V324"/>
+  <polygon points="160,332 155,322 165,322" fill="#241f1a"/>
+  <polygon points="440,332 435,322 445,322" fill="#241f1a"/>
+  <polygon points="720,332 715,322 725,322" fill="#241f1a"/>
+  <rect class="clay" x="40" y="332" width="240" height="72" rx="2"/>
+  <text class="ink label" x="160" y="362" text-anchor="middle">Asked to stop</text>
+  <text class="small" x="160" y="384" text-anchor="middle">Off the list</text>
+  <rect class="mute" x="320" y="332" width="240" height="72" rx="2"/>
+  <text class="ink label" x="440" y="362" text-anchor="middle">No one there</text>
+  <text class="small" x="440" y="384" text-anchor="middle">The chair stays free</text>
+  <rect class="moss" x="600" y="332" width="240" height="72" rx="2"/>
+  <text class="ink label" x="720" y="362" text-anchor="middle">They stayed</text>
+  <text class="small" x="720" y="384" text-anchor="middle">A person makes the ask</text>
+</svg>
