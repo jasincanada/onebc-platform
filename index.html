@@ -4,80 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>One riding, daytime</title>
-  <style>
-    :root {
-      --paper: #f3efe6;
-      --ink: #241f1a;
-      --quiet: #5c564e;
-      --line: #d9d2c5;
-      --moss: #3e5348;
-      --card: #f7f4ee;
-    }
-    * { box-sizing: border-box; }
-    html { background: var(--paper); }
-    body {
-      margin: 0 auto;
-      max-width: 880px;
-      padding: 48px 24px 80px;
-      color: var(--ink);
-      background: var(--paper);
-      font-family: Georgia, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
-      font-size: 19px;
-      line-height: 1.45;
-    }
-    header { border-top: 1px solid var(--ink); padding-top: 16px; }
-    .kicker {
-      margin: 0 0 20px;
-      color: var(--quiet);
-      font-size: 13px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-    h1 {
-      margin: 0 0 20px;
-      font-size: 40px;
-      font-weight: normal;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-    }
-    h2 {
-      margin: 48px 0 12px;
-      font-size: 13px;
-      font-weight: normal;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--quiet);
-    }
-    p { margin: 0 0 16px; }
-    .lede { font-size: 22px; line-height: 1.4; }
-    figure { margin: 28px 0; }
-    img, svg { width: 100%; height: auto; display: block; }
-    figcaption { margin-top: 8px; color: var(--quiet); font-size: 14px; }
-    .end {
-      margin-top: 36px;
-      padding-top: 16px;
-      border-top: 1px solid var(--line);
-      color: var(--quiet);
-      font-size: 16px;
-    }
-    footer {
-      margin-top: 48px;
-      padding-top: 16px;
-      border-top: 1px solid var(--ink);
-      color: var(--quiet);
-      font-size: 15px;
-    }
-    @media (max-width: 640px) {
-      body { padding: 32px 18px 64px; font-size: 18px; }
-      h1 { font-size: 32px; }
-      .lede { font-size: 20px; }
-    }
-    @media print {
-      body { max-width: none; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+  <nav>
+    <a href="index.html" aria-current="page">The day</a>
+    <a href="features.html">Features</a>
+    <a href="engineering.html">Engineering</a>
+    <a class="comment" href="https://github.com/jasincanada/onebc-platform/discussions/1">Comment on this page</a>
+  </nav>
   <header>
     <p class="kicker">OneBC · one riding · daytime</p>
     <h1>A room where people are actually on the line.</h1>
@@ -109,6 +44,8 @@
   <p>$800 is my time and the machines I build on. About $700 is an estimate for accounts you open and they bill to you. I stop if that estimate reaches $700. Phone minutes are yours, Canada to Canada, by the second. They are not inside either figure.</p>
 
   <p class="end">No program to install. No server for you to run. Calls stay in Canada. A number is called once. English is first. The build resumes after 1 October, or sooner if the larger coding plan is in place. Nothing in this page places a call.</p>
-  <footer>29 September 2026.</footer>
+  <footer>
+    <p>29 September 2026. <a href="https://github.com/jasincanada/onebc-platform/discussions/1">Comment on this page</a>. A GitHub account is enough.</p>
+  </footer>
 </body>
 </html>

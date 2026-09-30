@@ -1,0 +1,84 @@
+:root {
+  --paper: #f3efe6;
+  --ink: #241f1a;
+  --quiet: #5c564e;
+  --line: #d9d2c5;
+  --moss: #3e5348;
+  --card: #f7f4ee;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0 auto;
+  max-width: 880px;
+  padding: 28px 24px 80px;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Georgia, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  font-size: 19px;
+  line-height: 1.45;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  align-items: baseline;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--ink);
+  font-size: 16px;
+}
+nav a { color: var(--ink); }
+nav a[aria-current="page"] { color: var(--quiet); text-decoration: none; }
+.comment {
+  margin-left: auto;
+  color: var(--moss);
+}
+header { padding-top: 28px; }
+.kicker {
+  margin: 0 0 16px;
+  color: var(--quiet);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0 0 18px;
+  font-size: 38px;
+  font-weight: normal;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+h2 {
+  margin: 40px 0 10px;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--quiet);
+}
+p { margin: 0 0 14px; }
+ul { margin: 0 0 16px; padding-left: 1.2em; }
+li { margin: 0 0 8px; }
+.lede { font-size: 22px; line-height: 1.4; }
+figure { margin: 24px 0; }
+img { width: 100%; height: auto; display: block; }
+figcaption { margin-top: 8px; color: var(--quiet); font-size: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 16px; margin: 8px 0 20px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--quiet); font-weight: normal; }
+.when { color: var(--moss); white-space: nowrap; }
+.end, footer {
+  margin-top: 36px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--quiet);
+  font-size: 16px;
+}
+footer { border-top-color: var(--ink); }
+a { color: var(--moss); }
+@media (max-width: 640px) {
+  body { padding: 20px 16px 64px; font-size: 18px; }
+  h1 { font-size: 32px; }
+  .lede { font-size: 20px; }
+  .comment { margin-left: 0; }
+}
