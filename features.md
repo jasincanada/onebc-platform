@@ -1,6 +1,6 @@
 # What the desk does
 
-[The day](README.md) · **Features** · [Engineering](engineering.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/2)
+[The day](README.md) · **Features** · [Engineering](engineering.md) · [The rules](compliance.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/2)
 
 Roadmap, page 2 of 3. A GitHub account is enough to comment.
 

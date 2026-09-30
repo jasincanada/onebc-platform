@@ -1,6 +1,6 @@
 # How it is built, and what is not finished
 
-[The day](README.md) · [Features](features.md) · **Engineering** · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
+[The day](README.md) · [Features](features.md) · **Engineering** · [The rules](compliance.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/3)
 
 Roadmap, page 3 of 3. A GitHub account is enough to comment.
 
