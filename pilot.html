@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OneBC pilot desk</title>
+  <style>
+    :root {
+      --bg: #10140f;
+      --card: #1a2118;
+      --line: #2d3a2a;
+      --text: #f4f1e8;
+      --muted: #b7c0ae;
+      --gold: #e2b657;
+      --green: #8fbf73;
+      --red: #e07a6a;
+      --blue: #8eb6d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.35;
+    }
+    header, main { max-width: 880px; margin: 0 auto; padding: 20px; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    p, li { font-size: 18px; }
+    .banner {
+      background: #3a2a12;
+      color: #ffe7b0;
+      border: 1px solid var(--gold);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 14px 0 18px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .stat b { display: block; font-size: 32px; }
+    .stat span { color: var(--muted); font-size: 14px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+    label { display: block; font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+    textarea, input {
+      width: 100%;
+      background: #0d120c;
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      background: var(--gold);
+      color: #1b1406;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 16px;
+      font-weight: 700;
+      margin-right: 8px;
+      margin-top: 8px;
+    }
+    button.quiet { background: #2a3328; color: var(--text); }
+    table { width: 100%; border-collapse: collapse; font-size: 16px; }
+    th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+    .yes { color: var(--green); }
+    .no { color: var(--red); }
+    .miss { color: var(--blue); }
+    @media (max-width: 700px) { .grid { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pilot desk</h1>
+    <p>One list. One question. Four numbers.</p>
+    <div class="banner">Demo only. These 12 rows are made up. No call is placed. No voter file is loaded.</div>
+  </header>
+  <main>
+    <section>
+      <h2>The question</h2>
+      <label for="q">Summer replaces this line. Keep it to one press.</label>
+      <textarea id="q" rows="3">This is a OneBC volunteer in Juan de Fuca-Malahat. Press 1 if you want a call back. Press 2 to be taken off the list.</textarea>
+    </section>
+    <div class="grid" id="stats"></div>
+    <section>
+      <h2>What the room sees</h2>
+      <button id="run">Run the sample</button>
+      <button id="export" class="quiet">Download CSV</button>
+      <table>
+        <thead><tr><th>Name</th><th>Area</th><th>Result</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </section>
+  </main>
+  <script>
+    const sample = [
+      ["A. Sample", "Sooke", "press1"],
+      ["B. Sample", "Sooke", "hangup"],
+      ["C. Sample", "Mill Bay", "press1"],
+      ["D. Sample", "Mill Bay", "noanswer"],
+      ["E. Sample", "Cobble Hill", "press2"],
+      ["F. Sample", "Malahat", "hangup"],
+      ["G. Sample", "Shawnigan", "press1"],
+      ["H. Sample", "Port Renfrew", "noanswer"],
+      ["I. Sample", "Metchosin", "press1"],
+      ["J. Sample", "East Sooke", "hangup"],
+      ["K. Sample", "Jordan River", "press2"],
+      ["L. Sample", "Otter Point", "press1"]
+    ];
+    const label = { press1: "Pressed 1", press2: "Off the list", hangup: "Hung up", noanswer: "No answer" };
+    const cls = { press1: "yes", press2: "no", hangup: "no", noanswer: "miss" };
+    function counts() {
+      return {
+        reached: sample.filter(r => r[2] !== "noanswer").length,
+        hangup: sample.filter(r => r[2] === "hangup").length,
+        press1: sample.filter(r => r[2] === "press1").length,
+        off: sample.filter(r => r[2] === "press2").length
+      };
+    }
+    function draw() {
+      const c = counts();
+      document.getElementById("stats").innerHTML = [
+        ["Reached", c.reached],
+        ["Hung up", c.hangup],
+        ["Pressed 1", c.press1],
+        ["Off the list", c.off]
+      ].map(([n, v]) => `<div class="stat"><b>${v}</b><span>${n}</span></div>`).join("");
+      document.getElementById("rows").innerHTML = sample.map(r =>
+        `<tr><td>${r[0]}</td><td>${r[1]}</td><td class="${cls[r[2]]}">${label[r[2]]}</td></tr>`
+      ).join("");
+    }
+    document.getElementById("run").onclick = draw;
+    document.getElementById("export").onclick = () => {
+      const lines = ["name,area,result", ...sample.map(r => r.join(","))];
+      const blob = new Blob([lines.join("\n")], { type: "text/csv" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "onebc-pilot-sample.csv";
+      a.click();
+    };
+    draw();
+  </script>
+</body>
+</html>
