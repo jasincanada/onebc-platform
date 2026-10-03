@@ -23,6 +23,8 @@ Their Pro plan starts at $160 US dollars a month if you pay yearly, for up to 50
 | Sign-in | Microsoft or Google, plus a code or a passkey | Shared sign-in on Enterprise |
 | People | Groups. The highest group wins. Custom roles and a permissions screen | Groups on Enterprise. One custom permission set on Starter, two on Pro |
 
+A call designer studio comes later. It is not in this demonstration.
+
 NationBuilder is ahead on a finished campaign kit. A website, donations, events, and email blasts come with their Starter plan.
 
 A live try allows only 5 phone numbers, 5 text numbers, and 5 email addresses. A real call, text, or email is allowed only inside those limits. A wider live campaign stays off. The phone companies are VoIP.ms, Twilio, Telnyx, Plivo, and Bandwidth. You bring your own account.
