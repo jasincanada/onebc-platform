@@ -1,63 +1,32 @@
-# A room where people are actually on the line
+# Your desk
 
-**The day** · [The price](price.md) · [Features](features.md) · [Engineering](engineering.md) · [The rules](compliance.md) · [Glossary](glossary.md) · [Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/1)
+This desk is $4,000 US dollars, once, before tax, for time and machines only. British Columbia sales tax is not added. It is yours. You control it, and you can change it.
 
-For Summer. One riding. Daytime. Through 24 October 2026.
+This is a pilot: one working desk, not a finished product and not a full campaign tool. Open [pilot.cryptocomputer.ca](https://pilot.cryptocomputer.ca). The live version is 0.2.9. A setup walk-through takes you through a simple page. You do not look at the server. The footer there links to what changed.
 
-You have already rented the centre. Your people already know a shift. The missing piece is a chair used for a person who stayed, not for a recording that no one answers.
+## What you gain
 
-They hear who is calling. They answer yes or no. If they stay, someone in the room asks for their support. The recording never does. If they want off the list, they are off.
+| | This desk | NationBuilder |
+| --- | --- | --- |
+| Price | $4,000 once | From $34 US dollars a month. It does not stop |
+| Control | Yours. You can change it | Their platform |
 
-You can walk the floor, stop the day, set a limit in US dollars before the first call, and hear the greeting yourself before the room uses it.
+Their Pro plan starts at $160 US dollars a month if you pay yearly, for up to 500 people, so that bill matches $4,000 after 25 months and keeps going. The bill rises as the list grows. Their smallest plan starts at $34 US dollars a month on the same terms, and that costs less if you stay on it. Month to month, those starts are $179 and $41. Enterprise has no public price. [NationBuilder’s pricing page](https://nationbuilder.com/pricing), read 3 October 2026.
 
-## The handoff
+## What it does
 
-When someone stays, the call moves to a free volunteer. The volunteer does not dial. They answer a person who already knows who is calling, and who already said yes.
+| | This desk | NationBuilder |
+| --- | --- | --- |
+| Calls | Not connected. No live call today | Call sheets on the Pro plan |
+| Texts | 5 numbers in the live try. Not connected | Extra on Starter. 350 text credits a month on Pro |
+| Email | Google, Microsoft, or your own mail server. Not connected. Signing in does not let you send | Email blasts included |
+| Sign-in | Microsoft or Google, plus a code or a passkey | Shared sign-in on Enterprise |
+| People | Groups. The highest group wins. Custom roles and a permissions screen | Groups on Enterprise. One custom permission set on Starter, two on Pro |
 
-That is the chair you rented. It is used for the conversation, not for the sorting.
+A call designer studio comes later. It is not in this demonstration.
 
-If every volunteer is already talking, the call ends. The person is not left waiting in silence. Someone in the room calls them back later.
+NationBuilder is ahead on a finished campaign kit. A website, donations, events, and email blasts come with their Starter plan.
 
-## The same room
+A live try allows only 5 phone numbers, 5 text numbers, and 5 email addresses. A real call, text, or email is allowed only inside those limits. A wider live campaign stays off. The phone companies are VoIP.ms, Twilio, Telnyx, Plivo, and Bandwidth. You bring your own account.
 
-![Two kinds of shift. Silence, or a person who stayed.](assets/shift.svg)
-
-The centre does not change. The person on the line does.
-
-## One call
-
-![Path of one call. Stop, no one there, or a person makes the ask.](assets/call-flow.svg)
-
-The call is handed over only when a volunteer is free to take it.
-
-## The end of the shift
-
-![Reached, willing, spoke with someone, asked to stop, seconds billed.](assets/note.svg)
-
-One note. No chase through a pile of paper.
-
-## The rules
-
-The recording may say who is calling and ask yes or no. It may not ask for a vote, money, or support.
-
-This is not switched on. It does not call anyone until you say the shift is ready. Nothing on this page places a call.
-
-What I need from you is the riding, the list you already have a right to call, the name people should hear, a callback number, the hours, and the emails of the people in the room.
-
-The rest is on [The rules](compliance.md).
-
-## The price
-
-$4,000 in US dollars is my time and the machines I build on. That figure is before tax. The machines stay mine. Your accounts and the phone minutes are not in it.
-
-| What | How it is figured | US dollars |
-|---|---|---:|
-| My time | 70 hours at $50 an hour | $3,500 |
-| The machines | One month of use on this job. They are not sold. | $500 |
-| Total | | $4,000 |
-
-About $700 in US dollars is an estimate for accounts billed to you, not to me. I stop if that estimate reaches $700 in US dollars, before any tax those companies add. Phone minutes are yours. Neither company that might carry the calls is inside the $4,000 or the $700. None of these figures is in Canadian dollars.
-
-The hour-by-hour split and the tax note are on [the price page](price.md).
-
-[Comment on this page](https://github.com/jasincanada/onebc-platform/discussions/1)
+A large red button asks twice before a person deletes their own account or leaves a role.
